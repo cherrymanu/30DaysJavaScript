@@ -52,3 +52,21 @@ function printFullName(firstName, lastName) {
   }
   sum(2,4,5)
 
+  function modifyArray(){
+      //console.log(arguments.length)
+      //console.log(arguments[0])
+      if(arguments[0].length<5){
+          return 'not found'
+      }
+
+    else{
+        let array=arguments[0];
+        //console.log(array[4].toUpperCase())
+        array[4]= array[4].toUpperCase();
+        return array;
+    }
+}
+    console.log(modifyArray(['cherry','berry','melon','apple','banana','orange']))
+    console.log(modifyArray(['cherry','berry','melon','apple']))
+  
+
