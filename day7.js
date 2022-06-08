@@ -56,7 +56,7 @@ function printFullName(firstName, lastName) {
       //console.log(arguments.length)
       //console.log(arguments[0])
       if(arguments[0].length<5){
-          return 'not found'
+        //   return 'not found'
       }
 
     else{
