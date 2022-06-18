@@ -42,3 +42,4 @@ console.log(`${year1}-${month}-${date1} ${hours}:${minutes}`) // 4/1/2020 0:56
 // let firstName = 'charishma';
 // let lastName = 'Manupati';
 // console.log(firstName.length()>lastName.length()?: )
+//new commit
